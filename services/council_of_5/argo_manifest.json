@@ -1,0 +1,19 @@
+{
+  "name": "OKGpt AI Council",
+  "service_id": "okgpt_council",
+  "version": "1.0.0",
+  "service_type": "embedded",
+  "entry_point": "service_wrapper.py",
+  "config": {
+    "class_name": "OKGptCouncilService",
+    "auto_restart": true
+  },
+  "dependencies": [
+    "ollama"
+  ],
+  "capabilities": [
+    "multi_ai_deliberation",
+    "consensus_building",
+    "synthesis"
+  ]
+}

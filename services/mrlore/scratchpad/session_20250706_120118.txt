@@ -1,0 +1,9 @@
+=== MrLore Session 20250706_120118 ===
+Model: qwen2.5:7b-instruct
+Started: 2025-07-06 12:01:18
+
+=== CHARACTER PROFILES ===
+
+=== SESSION MEMORY ===
+
+[12:03:18] Q: Analyze Tran's development and themes of bloodline... | Insights: ❌ Error: Analysis timed out - try simpler query or different model...

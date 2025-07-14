@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/tran/clutterbot_test/clutterbot_beacon.py", line 7, in <module>
+    from service_discovery import ServiceDiscoveryBeacon, ServiceCapability, create_flask_discovery_server
+  File "/home/tran/clutterbot_test/service_discovery.py", line 15, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'

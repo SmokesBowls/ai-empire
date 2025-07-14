@@ -1,0 +1,7 @@
+=== MrLore Session 20250707_160643 ===
+Model: phi3:3.8b
+Started: 2025-07-07 16:06:43
+
+=== CHARACTER PROFILES ===
+
+=== SESSION MEMORY ===

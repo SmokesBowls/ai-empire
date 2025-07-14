@@ -1,0 +1,9 @@
+=== MrLore Session 20250712_155452 ===
+Model: dolphin3:8b
+Started: 2025-07-12 15:54:52
+
+=== CHARACTER PROFILES ===
+
+=== SESSION MEMORY ===
+
+[15:56:52] Q: Compare the motivations of Viên and Tran... | Insights: ❌ Error: Analysis timed out - try simpler query or different model...

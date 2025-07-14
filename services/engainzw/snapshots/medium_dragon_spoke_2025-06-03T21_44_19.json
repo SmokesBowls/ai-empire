@@ -1,0 +1,38 @@
+{
+	"broadcast_active": false,
+	"dream_depth": 0,
+	"event": "dragon_spoke",
+	"file_size_kb": 1364.1806640625,
+	"fps": 60.0,
+	"godot_version": {
+		"build": "official",
+		"hash": "49a5bc7b616bd04689a2c89e89bda41f50241464",
+		"hex": 263169,
+		"major": 4,
+		"minor": 4,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.4.1-stable (official)",
+		"timestamp": 0
+	},
+	"locked_anchor": "",
+	"priority": 2,
+	"priority_name": "medium",
+	"reality_entropy": 0.0,
+	"retention_hours": 12,
+	"scene_path": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+	"state": {
+		"current_location": "",
+		"fps": 60.0,
+		"inventory": [],
+		"scene": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+		"timestamp": 1749012259.08834
+	},
+	"timestamp": 1749012259.41366,
+	"zw_packet": {
+		"data": {
+			"text": "As I soar through the skies above the ancient temple complex, my eyes are drawn to the magnificent stone architecture that shimmers with glowing magical energy streams. The bustling crowds below create a vibrant atmosphere filled with excitement and wonder, as they explore this mystical place teeming with secrets waiting to be uncovered."
+		},
+		"event": "dragon_spoke"
+	}
+}
