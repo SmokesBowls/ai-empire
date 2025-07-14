@@ -1,0 +1,21 @@
+{
+  "name": "ZW Transformer",
+  "service_id": "zw_transformer",
+  "version": "1.2.0",
+  "service_type": "http",
+  "entry_point": "zw_transformer_stable.py",
+  "health_endpoint": "/health",
+  "default_port": 1111,
+  "config": {
+    "auto_restart": true,
+    "timeout": 300
+  },
+  "dependencies": [
+    "ollama"
+  ],
+  "capabilities": [
+    "zw_processing",
+    "blender_integration",
+    "ai_generation"
+  ]
+}
