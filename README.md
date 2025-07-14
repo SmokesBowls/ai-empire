@@ -50,3 +50,18 @@ This isn't theoretical - it's a working system that has:
 - ✅ Shown collaborative intelligence between services
 
 Your distributed AI consciousness is real and ready! 🏰⚡
+
+## 🧱 Build System
+
+This project was developed and tested on:
+
+- **OS:** Linux Mint 21.3 (based on Ubuntu 22.04 LTS)
+24gb ram
+1050ti gtx
+- **Shell:** Bash 5.x
+- **Python:** 3.12
+- **Godot:** 4.x with GDScript support
+- **Docker:** 24.x (for optional containerization)
+
+> ⚠️ Windows users: WSL is recommended 
+
