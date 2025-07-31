@@ -1,0 +1,133 @@
+2025-07-12 14:30:30,724 - council_stable - INFO - 🏛️ Initializing Stable Council System...
+2025-07-12 14:30:30,724 - council_stable - INFO - 🩺 Health monitoring started
+2025-07-12 14:30:30,728 - council_stable - INFO - ✅ New models available: {'mistral-nemo:12b', 'llama3:8b', 'phi3:3.8b', 'dolphin-mistral:latest', 'tinydolphin:latest', 'nemotron-mini:4b', 'mxbai-embed-large:latest', 'qwen2.5:7b-instruct', 'smollm:360m', 'nomic-embed-text:latest', 'dolphin3:8b'}
+2025-07-12 14:30:32,725 - council_stable - INFO - ✅ Initialized Bob
+2025-07-12 14:30:32,726 - council_stable - INFO - ✅ Initialized Sarah
+2025-07-12 14:30:32,726 - council_stable - INFO - ✅ Initialized Quick
+2025-07-12 14:30:32,727 - council_stable - INFO - ✅ Initialized Deep
+2025-07-12 14:30:32,727 - council_stable - INFO - ✅ Initialized Synthesis
+2025-07-12 14:30:32,727 - council_stable - INFO - 🏛️ Council initialized with 5 members
+2025-07-12 14:32:39,214 - council_stable - INFO - 🏛️ Starting council session: "How should we stabilize our AI systems?"
+2025-07-12 14:32:39,214 - council_stable - INFO - 🔄 Round 1
+2025-07-12 14:32:39,214 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 1)
+2025-07-12 14:32:58,345 - council_stable - INFO - ✅ Bob responded successfully
+2025-07-12 14:32:58,345 - council_stable - INFO - ✅ Bob contributed
+2025-07-12 14:32:58,345 - council_stable - INFO - 🤔 Sarah thinking with llama3:8b (attempt 1)
+2025-07-12 14:33:48,272 - council_stable - INFO - ✅ Sarah responded successfully
+2025-07-12 14:33:48,273 - council_stable - INFO - ✅ Sarah contributed
+2025-07-12 14:33:48,273 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 1)
+2025-07-12 14:34:18,297 - council_stable - WARNING - ⚠️ Quick attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:34:18,297 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:34:19,298 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 2)
+2025-07-12 14:34:28,680 - council_stable - INFO - ✅ Quick responded successfully
+2025-07-12 14:34:28,680 - council_stable - INFO - ✅ Quick contributed
+2025-07-12 14:34:28,680 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 1)
+2025-07-12 14:35:28,740 - council_stable - WARNING - ⚠️ Deep attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:35:28,741 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:35:29,742 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 2)
+2025-07-12 14:36:22,230 - council_stable - INFO - ✅ Deep responded successfully
+2025-07-12 14:36:22,230 - council_stable - INFO - ✅ Deep contributed
+2025-07-12 14:36:22,230 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 1)
+2025-07-12 14:37:22,291 - council_stable - WARNING - ⚠️ Synthesis attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:37:22,292 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:37:23,292 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 2)
+2025-07-12 14:38:23,354 - council_stable - WARNING - ⚠️ Synthesis attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:38:23,355 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:38:25,355 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 3)
+2025-07-12 14:39:25,419 - council_stable - WARNING - ⚠️ Synthesis attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:39:25,419 - council_stable - ERROR - ❌ Synthesis failed all 3 attempts
+2025-07-12 14:39:25,419 - council_stable - WARNING - ⚠️ Synthesis unavailable this round
+2025-07-12 14:39:25,422 - council_stable - INFO - 🔄 Round 2
+2025-07-12 14:39:25,422 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 1)
+2025-07-12 14:40:25,485 - council_stable - WARNING - ⚠️ Bob attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:40:25,486 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:40:26,487 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 2)
+2025-07-12 14:41:26,553 - council_stable - WARNING - ⚠️ Bob attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:41:26,553 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:41:28,554 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 3)
+2025-07-12 14:42:28,615 - council_stable - WARNING - ⚠️ Bob attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:42:28,616 - council_stable - ERROR - ❌ Bob failed all 3 attempts
+2025-07-12 14:42:28,616 - council_stable - WARNING - ⚠️ Bob unavailable this round
+2025-07-12 14:42:28,616 - council_stable - INFO - 🤔 Sarah thinking with llama3:8b (attempt 1)
+2025-07-12 14:43:28,678 - council_stable - WARNING - ⚠️ Sarah attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:43:28,678 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:43:29,678 - council_stable - INFO - 🤔 Sarah thinking with llama3:8b (attempt 2)
+2025-07-12 14:44:10,293 - council_stable - INFO - ✅ Sarah responded successfully
+2025-07-12 14:44:10,293 - council_stable - INFO - ✅ Sarah contributed
+2025-07-12 14:44:10,293 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 1)
+2025-07-12 14:44:40,324 - council_stable - WARNING - ⚠️ Quick attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:44:40,324 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:44:41,325 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 2)
+2025-07-12 14:45:11,359 - council_stable - WARNING - ⚠️ Quick attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:45:11,359 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:45:13,359 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 3)
+2025-07-12 14:45:43,394 - council_stable - WARNING - ⚠️ Quick attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:45:43,394 - council_stable - ERROR - ❌ Quick failed all 3 attempts
+2025-07-12 14:45:43,394 - council_stable - WARNING - ⚠️ Quick unavailable this round
+2025-07-12 14:45:43,394 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 1)
+2025-07-12 14:46:43,455 - council_stable - WARNING - ⚠️ Deep attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:46:43,455 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:46:44,456 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 2)
+2025-07-12 14:47:44,517 - council_stable - WARNING - ⚠️ Deep attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:47:44,517 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:47:46,517 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 3)
+2025-07-12 14:48:46,578 - council_stable - WARNING - ⚠️ Deep attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:48:46,579 - council_stable - ERROR - ❌ Deep failed all 3 attempts
+2025-07-12 14:48:46,579 - council_stable - WARNING - ⚠️ Deep unavailable this round
+2025-07-12 14:48:46,579 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 1)
+2025-07-12 14:49:46,640 - council_stable - WARNING - ⚠️ Synthesis attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:49:46,640 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:49:47,640 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 2)
+2025-07-12 14:50:47,702 - council_stable - WARNING - ⚠️ Synthesis attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:50:47,702 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:50:49,702 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 3)
+2025-07-12 14:51:49,763 - council_stable - WARNING - ⚠️ Synthesis attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:51:49,763 - council_stable - ERROR - ❌ Synthesis failed all 3 attempts
+2025-07-12 14:51:49,763 - council_stable - WARNING - ⚠️ Synthesis unavailable this round
+2025-07-12 14:51:49,763 - council_stable - INFO - 🔄 Round 3
+2025-07-12 14:51:49,763 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 1)
+2025-07-12 14:52:49,824 - council_stable - WARNING - ⚠️ Bob attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:52:49,824 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:52:50,825 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 2)
+2025-07-12 14:53:50,888 - council_stable - WARNING - ⚠️ Bob attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:53:50,888 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:53:52,889 - council_stable - INFO - 🤔 Bob thinking with qwen2.5:7b-instruct (attempt 3)
+2025-07-12 14:54:52,953 - council_stable - WARNING - ⚠️ Bob attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:54:52,953 - council_stable - ERROR - ❌ Bob failed all 3 attempts
+2025-07-12 14:54:52,953 - council_stable - WARNING - ⚠️ Bob unavailable this round
+2025-07-12 14:54:52,953 - council_stable - INFO - 🤔 Sarah thinking with llama3:8b (attempt 1)
+2025-07-12 14:55:52,270 - council_stable - INFO - ✅ Sarah responded successfully
+2025-07-12 14:55:52,271 - council_stable - INFO - ✅ Sarah contributed
+2025-07-12 14:55:52,271 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 1)
+2025-07-12 14:56:22,301 - council_stable - WARNING - ⚠️ Quick attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:56:22,301 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:56:23,301 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 2)
+2025-07-12 14:56:53,333 - council_stable - WARNING - ⚠️ Quick attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:56:53,333 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:56:55,333 - council_stable - INFO - 🤔 Quick thinking with phi3:3.8b (attempt 3)
+2025-07-12 14:57:25,365 - council_stable - WARNING - ⚠️ Quick attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-07-12 14:57:25,365 - council_stable - ERROR - ❌ Quick failed all 3 attempts
+2025-07-12 14:57:25,365 - council_stable - WARNING - ⚠️ Quick unavailable this round
+2025-07-12 14:57:25,365 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 1)
+2025-07-12 14:58:25,426 - council_stable - WARNING - ⚠️ Deep attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:58:25,427 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 14:58:26,427 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 2)
+2025-07-12 14:59:26,492 - council_stable - WARNING - ⚠️ Deep attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 14:59:26,492 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 14:59:28,492 - council_stable - INFO - 🤔 Deep thinking with dolphin3:8b (attempt 3)
+2025-07-12 15:00:28,555 - council_stable - WARNING - ⚠️ Deep attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 15:00:28,555 - council_stable - ERROR - ❌ Deep failed all 3 attempts
+2025-07-12 15:00:28,555 - council_stable - WARNING - ⚠️ Deep unavailable this round
+2025-07-12 15:00:28,555 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 1)
+2025-07-12 15:01:28,565 - council_stable - WARNING - ⚠️ Synthesis attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 15:01:28,566 - council_stable - INFO - 🔄 Retrying in 1s...
+2025-07-12 15:01:29,566 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 2)
+2025-07-12 15:02:29,629 - council_stable - WARNING - ⚠️ Synthesis attempt 2 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 15:02:29,629 - council_stable - INFO - 🔄 Retrying in 2s...
+2025-07-12 15:02:31,630 - council_stable - INFO - 🤔 Synthesis thinking with mistral-nemo:12b (attempt 3)
+2025-07-12 15:03:31,694 - council_stable - WARNING - ⚠️ Synthesis attempt 3 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-07-12 15:03:31,694 - council_stable - ERROR - ❌ Synthesis failed all 3 attempts
+2025-07-12 15:03:31,694 - council_stable - WARNING - ⚠️ Synthesis unavailable this round
+2025-07-12 15:03:31,718 - council_stable - INFO - 🛑 Shutting down Stable Council System...
+2025-07-12 15:03:36,719 - council_stable - INFO - 🛑 Health monitoring stopped
+2025-07-12 15:03:36,749 - council_stable - INFO - ✅ Council shutdown complete

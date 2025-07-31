@@ -1,0 +1,7 @@
+=== MrLore Session 20250706_111759 ===
+Model: tinydolphin:latest
+Started: 2025-07-06 11:17:59
+
+=== SESSION MEMORY ===
+
+[11:18:13] Q: Give me an overview of this story and its main themes... | Key context noted

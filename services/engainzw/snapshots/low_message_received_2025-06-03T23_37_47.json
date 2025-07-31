@@ -1,0 +1,38 @@
+{
+	"broadcast_active": false,
+	"dream_depth": 0,
+	"event": "message_received",
+	"file_size_kb": 1365.806640625,
+	"fps": 60.0,
+	"godot_version": {
+		"build": "official",
+		"hash": "49a5bc7b616bd04689a2c89e89bda41f50241464",
+		"hex": 263169,
+		"major": 4,
+		"minor": 4,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.4.1-stable (official)",
+		"timestamp": 0
+	},
+	"locked_anchor": "",
+	"priority": 3,
+	"priority_name": "low",
+	"reality_entropy": 0.0,
+	"retention_hours": 4,
+	"scene_path": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+	"state": {
+		"current_location": "",
+		"fps": 60.0,
+		"inventory": [],
+		"scene": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+		"timestamp": 1749019067.91006
+	},
+	"timestamp": 1749019068.23468,
+	"zw_packet": {
+		"data": {
+			"command": "yo"
+		},
+		"event": "message_received"
+	}
+}

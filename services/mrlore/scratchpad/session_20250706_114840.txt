@@ -1,0 +1,5 @@
+=== MrLore Session 20250706_114840 ===
+Model: qwen2.5:7b-instruct
+Started: 2025-07-06 11:48:40
+
+=== CHARACTER PROFILES ===

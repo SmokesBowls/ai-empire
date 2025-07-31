@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  ai-empire:
+    build: .
+    container_name: ai-empire
+    network_mode: "host"
+    volumes:
+      - ./logs:/logs
+      - ./empire_data:/empire_data
+    environment:
+      - EMPIRE_LOG_PATH=/logs/empire.log
+      - PYTHONPATH=/empire
+    restart: unless-stopped
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: empire-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

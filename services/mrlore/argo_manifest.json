@@ -1,0 +1,19 @@
+{
+  "name": "MrLore Intelligence",
+  "service_id": "mrlore",
+  "version": "2.0.0",
+  "service_type": "embedded",
+  "entry_point": "service_wrapper.py",
+  "config": {
+    "class_name": "MrLoreService",
+    "auto_restart": true
+  },
+  "dependencies": [
+    "ollama"
+  ],
+  "capabilities": [
+    "literary_analysis",
+    "character_modeling",
+    "memory_caching"
+  ]
+}

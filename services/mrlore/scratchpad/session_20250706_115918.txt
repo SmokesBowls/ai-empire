@@ -1,0 +1,9 @@
+=== MrLore Session 20250706_115918 ===
+Model: mistral-nemo:12b
+Started: 2025-07-06 11:59:18
+
+=== CHARACTER PROFILES ===
+
+=== SESSION MEMORY ===
+
+[12:01:18] Q: Analyze Tran's development and themes of bloodline... | Insights: ❌ Error: Analysis timed out - try simpler query or different model...

@@ -1,0 +1,55 @@
+#!/bin/bash
+# ClutterBot Main Dispatcher - Fixed Version
+
+WARROOM_DIR="$HOME/warroom"
+
+case "$1" in
+    "sandbox")
+        if [ -f "$WARROOM_DIR/clutterbot_sandbox.sh" ]; then
+            "$WARROOM_DIR/clutterbot_sandbox.sh" "$2" "$3" "$4"
+        elif [ -f "$WARROOM_DIR/clutterbot_butler.sh" ]; then
+            "$WARROOM_DIR/clutterbot_butler.sh" "$@"
+        else
+            echo "❌ ClutterBot sandbox system not found"
+            echo "💡 Make sure clutterbot_sandbox.sh or clutterbot_butler.sh exists"
+        fi
+        ;;
+    "welcome"|"back"|"mood"|"done"|"index")
+        if [ -f "$WARROOM_DIR/clutterbot_butler.sh" ]; then
+            "$WARROOM_DIR/clutterbot_butler.sh" "$@"
+        else
+            echo "❌ ClutterBot butler system not found"
+            echo "💡 Creating basic welcome message..."
+            echo "🏠 Welcome back! ClutterBot is setting up..."
+        fi
+        ;;
+    "overnight")
+        if [ -f "$WARROOM_DIR/clutterbot_overnight.sh" ]; then
+            "$WARROOM_DIR/clutterbot_overnight.sh" "${@:2}"
+        else
+            echo "❌ ClutterBot overnight system not found"
+        fi
+        ;;
+    "edit")
+        # Quick edit mode using the sandbox editor
+        if [ -f "$WARROOM_DIR/clutterbot_sandbox.sh" ]; then
+            "$WARROOM_DIR/clutterbot_sandbox.sh" "$2"
+        else
+            echo "❌ ClutterBot sandbox editor not found"
+        fi
+        ;;
+    *)
+        echo "🤖 ClutterBot Digital Butler System"
+        echo ""
+        echo "Available Commands:"
+        echo "  clutterbot welcome           - Welcome back routine"
+        echo "  clutterbot sandbox create... - Safe editing environments"
+        echo "  clutterbot edit <file>       - Quick safe edit"
+        echo "  clutterbot overnight ...     - Background automation"
+        echo ""
+        echo "System Status:"
+        [ -f "$WARROOM_DIR/clutterbot_sandbox.sh" ] && echo "  ✅ Sandbox Editor" || echo "  ❌ Sandbox Editor"
+        [ -f "$WARROOM_DIR/clutterbot_butler.sh" ] && echo "  ✅ Butler System" || echo "  ❌ Butler System"  
+        [ -f "$WARROOM_DIR/clutterbot_overnight.sh" ] && echo "  ✅ Overnight Daemon" || echo "  ❌ Overnight Daemon"
+        ;;
+esac

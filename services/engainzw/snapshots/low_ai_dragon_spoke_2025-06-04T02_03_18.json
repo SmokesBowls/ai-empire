@@ -1,0 +1,41 @@
+{
+	"broadcast_active": false,
+	"dream_depth": 0,
+	"event": "ai_dragon_spoke",
+	"file_size_kb": 1315.361328125,
+	"fps": 60.0,
+	"godot_version": {
+		"build": "official",
+		"hash": "49a5bc7b616bd04689a2c89e89bda41f50241464",
+		"hex": 263169,
+		"major": 4,
+		"minor": 4,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.4.1-stable (official)",
+		"timestamp": 0
+	},
+	"locked_anchor": "",
+	"priority": 3,
+	"priority_name": "low",
+	"reality_entropy": 0.0,
+	"retention_hours": 4,
+	"scene_path": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+	"state": {
+		"current_location": "",
+		"fps": 60.0,
+		"inventory": [],
+		"scene": "res://addons/zwengain/scenes/EngAInDragon.tscn",
+		"timestamp": 1749027798.11125
+	},
+	"timestamp": 1749027798.49116,
+	"visual_analysis": "I observe the cosmic interface during dragon communication. The dragon has just communicated: 'The dragon's gaze turns thoughtful as it speaks: 'So you wish to learn more about our kind. Know that we are guardians of ancient secrets and have seen aeons pass. Let me reveal some lore to you...''. The interface shows a sophisticated reality manipulation command center with central navigation systems, entropy controls for temporal adjustments, reality control panels, timeline anchor systems, and dimensional monitoring displays. Complex geometric patterns suggest cosmic-scale reality engineering capabilities.",
+	"zw_packet": {
+		"data": {
+			"ai_generated": true,
+			"director_active": true,
+			"text": "The dragon's gaze turns thoughtful as it speaks: 'So you wish to learn more about our kind. Know that we are guardians of ancient secrets and have seen aeons pass. Let me reveal some lore to you...'"
+		},
+		"event": "ai_dragon_spoke"
+	}
+}
