@@ -1,8 +1,9 @@
 version: '3.8'
-
 services:
   ai-empire:
-    build: .
+    build: 
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: ai-empire
     network_mode: "host"
     volumes:
@@ -11,18 +12,5 @@ services:
     environment:
       - EMPIRE_LOG_PATH=/logs/empire.log
       - PYTHONPATH=/empire
+      - OLLAMA_HOST=localhost:11434
     restart: unless-stopped
-    depends_on:
-      - ollama
-
-  ollama:
-    image: ollama/ollama:latest
-    container_name: empire-ollama
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_data:/root/.ollama
-    restart: unless-stopped
-
-volumes:
-  ollama_data:
